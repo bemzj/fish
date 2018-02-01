@@ -1,0 +1,83 @@
+header {
+  height: 0.8rem;
+  width: 100%;
+  background: url(../img/title.jpg) no-repeat left top;
+  background-size: 100% 100%; }
+  header p {
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: white;
+    background: url(../img/company.png) no-repeat 40% center;
+    background-size: auto 0.32rem;
+    text-indent: 0.8rem; }
+
+body {
+  background-color: #f6f6f6; }
+
+#part01, #part02 {
+  width: 100%;
+  overflow-x: hidden; }
+
+.thum1, .thum2, .thum3 {
+  width: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+.thum1Box, .thum2Box, .thum3Box {
+  position: relative; }
+  .thum1Box > div, .thum2Box > div, .thum3Box > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none; }
+  .thum1Box img, .thum2Box img, .thum3Box img {
+    width: 100%; }
+
+.text {
+  width: 100%;
+  background-color: white;
+  padding: 0.4rem 0; }
+  .text .textImg {
+    width: 86.67%;
+    margin: 0 auto;
+    position: relative; }
+    .text .textImg > img {
+      width: 100%; }
+    .text .textImg .textP {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 0.26rem;
+      color: #555555; }
+      .text .textImg .textP p {
+        width: 78%;
+        margin-left: 12%;
+        margin-top: 12%;
+        line-height: 0.48rem; }
+        .text .textImg .textP p span {
+          color: #00a63b; }
+
+.swiper-container .swiper-slide img {
+  width: 100%; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0px; }
+
+.swiper-pagination-bullet {
+  background: #dddddd;
+  opacity: 1; }
+
+.swiper-pagination-bullet-active {
+  background: #00a63b; }
+
+.thum3 .text .textImg .textP p {
+  margin-left: 8%;
+  margin-top: 10%; }
+
+/*# sourceMappingURL=index.css.map */
