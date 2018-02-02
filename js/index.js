@@ -91,7 +91,7 @@ $(function(){
 	});
 	$('.thum2').find('.thum2Box').width($(window).width()*0.2667);
 	$('.thum2').find('.thum2Box').css({'margin-left':$(window).width()*0.0267,'margin-top':$(window).width()*0.0267,'margin-bottom':$(window).width()*0.0267});
-	$('.thum2>div').width($(window).width()*(0.2667*4+0.0267*5));
+	$('.thum2>div').width($(window).width()*(0.2667*$('.thum2').find('.thum2Box').length+0.0267*($('.thum2').find('.thum2Box').length+1)));
 	
 	var mySwiper3 = new Swiper('.swiper-container-3', {
 		loop: true,
