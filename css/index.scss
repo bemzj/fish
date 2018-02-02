@@ -13,6 +13,25 @@ header{
         text-indent: 0.8rem;
     }
 }
+.pro{
+    width: 100%;
+    height: 0.8rem;
+    background-color: #f5fafe;
+    border-bottom: 1px solid #e4e4e4;
+     p{
+        font-size: 0.32rem;
+        text-align: center;
+        line-height: 0.8rem;
+        color: #004982;
+    }
+}
+.proImg{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    img{
+        width: 100%;
+    }
+}
 body{
     background-color: #f6f6f6;
 }
